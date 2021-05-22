@@ -125,6 +125,10 @@ ul li a{
         left: 0%;
         top: 10%;
     }
+    header{
+            height: 111vh;
+        width: 46vh;
+    }
     .host{
 
     }

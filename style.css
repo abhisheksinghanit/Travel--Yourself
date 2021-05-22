@@ -126,7 +126,12 @@ ul li a{
         top: 11%;
     }
     header{
-            height: 111vh;
+        background-image: url(pic1.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        display:center;
+        height: 111vh;
         width: 46vh;
     }
     .host{

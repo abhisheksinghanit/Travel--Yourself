@@ -37,7 +37,8 @@ h1::before{
 
 }
 header{
-    background-image: url(https://www.pixelstalk.net/hd-galaxy-wallpaper-tumblr/);
+    background-image:url(../pic1.jpg);
+    background-attachment: fixed;
     height: 100vh;
    background-size: cover;
    background-position: center;

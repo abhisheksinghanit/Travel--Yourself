@@ -76,6 +76,7 @@
         }
         .bubbels img{
             width: 50px;
+            animation: bubble 7s linear infinite;
         }
         .bubbels{
             width:100%;
@@ -83,7 +84,7 @@
             align-items: center;
             justify-content: space-around;
             position: absolute;
-            bottom: 0;
+            bottom: -70px;
         }
         @keyframes bubble{
             0%{
@@ -102,6 +103,35 @@
                 transform: translateY(-80vh);
                 opacity: 0;
             }
+        }
+        .bubbels img:nth-child(1){
+            width: 25px;
+            animation-delay: 2s;
+        }
+        .bubbels img:nth-child(2){
+            animation-delay: 1s;
+        }
+        .bubbels img:nth-child(3){
+            width: 25px;
+            animation-delay: 3s;
+        }
+        .bubbels img:nth-child(4){
+            width: 90px;
+            animation-delay: 4.5s;
+        }
+        .bubbels img:nth-child(5){
+            width: 20px;
+            animation-delay: 7s;
+        }
+        .bubbels img:nth-child(6){
+            animation-delay: 4s;
+        }
+        .bubbels img:nth-child(7){
+            width:50px;
+            animation-delay: 2.5s;
+        }
+        .bubbels img:nth-child(8){
+            animation-delay: 8s;
         }
 
 

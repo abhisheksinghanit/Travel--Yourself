@@ -115,8 +115,8 @@ text-decoration: none;
 .button{
     float: right;
     position: absolute;
-    top: 8%;
-    right: -34%;
+    top: 10%;
+    right: -36%;
     transform: translate(-50%,-50%);
 }
 .bio p {

@@ -85,7 +85,7 @@ body{
     top: 53%;
     left: 16.5%;
 }
-@media(max-width:740px){
+@media(max-width:725px){
 .pic img {
     height: 44vh;
     margin: -80px -24px;
@@ -96,7 +96,7 @@ body{
 .block{
     background-color: rgb(9, 1, 26);
     height: 80px;
-    width: 350px;
+    width: 360px;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
 }   

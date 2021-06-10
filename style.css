@@ -85,7 +85,7 @@ body{
     top: 53%;
     left: 16.5%;
 }
-@media(max-width:750px){
+@media(max-width:740px){
 .pic img {
     height: 44vh;
     margin: -80px -24px;

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: bisque;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .container{
+            max-width: 60%;
+            padding: 30px;
+            position: absolute;
+            top: 20%;
+            background-color: aquamarine;
+        }
+        input{
+            padding: 10px 0 10px;
+            height: 6%;
+            width: 90%;
+            margin: 2%;
+            border: 2px;
+            border-radius: 7px;
+        } 
+        .container h2{
+            text-align: center;
+            font-size: 30px;
+            color:rgb(248, 102, 102);
+            font-family:Hoefler Text;
+        }
+        button{
+            margin: 3%;
+            padding: 2%;
+        }   
+    </style>
+    <script>
+        function check_pas(pass){
+            var plen=pwd.length;
+            if(pass=='9647412515'){
+                document.getElementById('msg1').style.color='green';
+                document.getElementById('msg1').innerHTML="Done";
+            }
+            else{
+                document.getElementById('msg1').style.color='red';
+                document.getElementById('msg1').innerHTML="Your password is wrong";
+            }
+        }
+        function check_pass(pwd){
+            if(pwd=='Family'){
+                document.getElementById('msg').style.color='green';
+                document.getElementById('msg').innerHTML="Done";
+            }
+            else{
+                document.getElementById('msg').style.color='red';
+                document.getElementById('msg').innerHTML="Your password is wrong";
+            }
+            
+    }
+    </script>
+</head>
+<body>
+    <form>
+    <div class="container" align="center">
+        <h2>Family login</h2>
+        <div>
+            <input type="text" name="ids" id="user" placeholder="Enter the user id" onkeyup="check_pas(this.value);">
+            <label for="msg1" id="msg1"></label>
+            <input type="text" name="password" id="pass" placeholder="Enter the password" onkeyup="check_pass(this.value);">
+            <label for="msg" id="msg"></label>
+        </div>
+        <button>Submit</button>
+    </div>
+    </form>
+    
+</body>
+</html>
